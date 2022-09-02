@@ -1,0 +1,42 @@
+Nome database: Auto
+
+db:
+- id : numero intero - MEDIUMINT - PRIMARY_KEY - AUTO_INCREMENT
+
+- foto : stringa - TEXT - NULL
+
+- prezzo : numero con la virgola - FLOAT(10, 2) - NOTNULL
+
+- chilometri : stringa - VARCHAR(10) - NOTNULL
+
+- marca : stringa - VARCHAR(10) - NOTNULL
+
+- modello : stringa - VARCHAR(20) - NOTNULL
+
+- cambio : stringa - VARCHAR(15) - NOTNULL
+
+- classe_di_emissione_europea : stringa - VARCHAR(7) - NULL
+
+- immatricolazione : data - YEAR - NOTNULL
+
+- alimentazione : stringa - VARCHAR(15) -NOTNULL
+
+- cavalli : stringa - VARCHAR(3) - NOTNULL
+
+- consumi_carburante : numero con la virgola - FLOAT(3, 1) - NULL
+
+- emissioni_CO2 : numero intero - TINYINT - NULL
+
+- tipologia_trazione : stringa - VARCHAR(20) - NULL
+
+- colore_carrozzeria : stringa - VARCHAR(15) - NOTNULL
+
+- numero_porte : stringa - VARCHAR(1) - NOTNULL
+
+- cilindrata : stringa - VARCHAR(5) - NOTNULL
+
+- numero_posti : stringa - VARCHAR(1) - NOTNULL
+
+- descrizione : stringa - TEXT - NULL
+
+- set_opzionali : stringa - TEXT - NULL
